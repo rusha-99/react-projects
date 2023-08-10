@@ -15,6 +15,12 @@ function App() {
       </div>
       <Categories />
       <Menu items={ menuItems} />
+
+      {/* {items.map((menuItems) => {
+        return (
+          < Menu key={menuItems.id } {...menuItems} />
+        )
+      })} */}
     </section>
   )
 }
